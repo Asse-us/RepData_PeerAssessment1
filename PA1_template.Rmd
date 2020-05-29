@@ -1,13 +1,13 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+    title: "Reproducible Research: Peer Assessment 1"
 output: 
-  html_document:
+    html_document:
     keep_md: true
 ---
-
-#### Read the necessary packages
-
-```{r, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
+    
+    #### Read the necessary packages
+    
+    ```{r, echo=TRUE, results='hide', warning=FALSE, message=FALSE}
 library(data.table)
 library(dplyr)
 library(ggplot2)
@@ -165,9 +165,3 @@ ggplot(AvgNAFilledActivity, aes(interval, steps, color = DayType)) +
     ylab("Number of steps") +
     ggtitle("Day Type Comparison of Steps in 5 minutes Interval")
 ```
-
-
-
-
-
-
